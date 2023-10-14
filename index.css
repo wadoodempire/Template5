@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  width: 100%;
+}
+.nav {
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+}
+.nav:hover {
+  background-color: #fff;
+  color: black;
+}
+.table_main {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  margin: 0 0;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  position: fixed;
+}
+  .mid_class {
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #f6f5f2;
+    padding-top: 20px;
+  }
+  .container_1 {
+    background-image: url("./images/coffeehouse2.jpg");
+    height: 493px;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+  }
+  .cafe_heading {
+    font-size: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    top: 111px;
+    line-height: 135px;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+  }
+  .cafe_pra {
+   
+    padding: 3px 8px 4px 8px;
+    bottom: 12px;
+    left: 24px;
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .about_heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about_pra {
+    justify-content: center;
+    text-align: left;
+    
+  }
+  .about_pra_2_main {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-left: 6px solid #ccc;
+    font-style: italic;
+  }
+  .img_about {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .about_pra_3 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .menu_heading {
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px 2px 8px;
+    display: inline-block;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .table_menu {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 1px solid;
+  }
+  .eat_heading {
+    background-color: #616161;
+    color: white;
+    padding: 8px;
+  }
+  .eat_drink_heading {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .eat_drink_pra {
+    text-align: left;
+    padding-left: 10px;
+    color: #757575;
+  }
+  .menu {
+    border: 1px solid;
+    padding-bottom: 100px;
+  }
+  .image_menu {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .map_heading {
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px 2px 8px;
+    display: inline-block;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .map_pra {
+    text-align: left;
+    font-size: 20px;
+  }
+  .image_map {
+    width: 100%;
+  }
+  .map_pra_2 {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Inconsolata", sans-serif;
+  }
+  .form_main {
+    display: inline-grid;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .input {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    
+  }
+  .send_button {
+    height: 50px;
+    width: 20%;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    font-family: "Inconsolata", sans-ser;
+    text-transform: uppercase;
+  }
+  .send_button:hover {
+  background-color: #918e8e;
+  color: black;
+} 
+  .container_5 {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 160px;
+  }
+  .footer_pra {
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 48px;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+
+    .header {
+      text-align: center;
+    }
+    .mid_class {
+      width: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .cafe_pra {
+    bottom: 180px;
+    
+    }
+    .about_pra {
+      margin: 35px;
+    }
+    .about_heading {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .about_pra_3 {
+      padding-left: 20px;
+      font-size: 15px;
+    }
+    .table_main {
+      padding: 10px;
+    }
+  }
